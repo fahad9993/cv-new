@@ -515,6 +515,12 @@ img {
 .skills__latex {
     width: 90%;
 }
+.skills__cad {
+    width: 20%;
+}
+.skills__sw {
+    width: 50%;
+}
 
 .skills__close .skills__list {
     height: 0;
