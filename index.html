@@ -696,29 +696,38 @@
                     </div>
                 </div>
 
-                <form action="mailto:fahad9993@gmail.com?subject=feedback" class="contact__form grid" method="post" enctype="text/plain"></form>
+                <form class="contact__form grid" action="https://formsubmit.co/e1aa22ec25516fa8e0d3986f7e7ba9d0" method="POST">
+
+                    <!-- Honeypot -->
+                    <input type="text" name="_honey" style="display: none;">
+
+                    <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <input type="hidden" name="_next" value="false">
+
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <label for="name" class="contact__label">Name</label>
+                            <input name="Name" type="text" class="contact__input" id="name" required>
                         </div>
 
                         <div class="contact__content">
-                            <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <label for="emailInfo" class="contact__label">Email</label>
+                            <input name="Email" type="email" class="contact__input" id="emailInfo" required>
                         </div>
                     </div>
 
                     <div class="contact__content">
-                        <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <label for="message" class="contact__label">Message</label>
+                        <textarea name="Message" id="message" cols="0" rows="7" class="contact__input" required></textarea>
                     </div>
 
                     <div>
-                        <a href="" class="button button--flex">
+                        <button type="submit" class="button button--flex button--form">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </div>
                 </form>
             </div>

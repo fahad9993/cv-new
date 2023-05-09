@@ -392,6 +392,14 @@ img {
     color: var(--first-color-alt);
 }
 
+.button--form {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 /*========================= ABOUT =======================*/
 .about__img {
     width: 200px;
@@ -925,6 +933,22 @@ img {
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--text-color-light);
+}
+
+/* =================================== SUCCESS============================ */
+.success {
+    margin: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.success__title {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-1);
+}
+
+.success__description {
+    font-size: var(--h2-font-size);
 }
 
 /*========================= MEDIA QUERIES =======================*/
