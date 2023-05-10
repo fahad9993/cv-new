@@ -205,25 +205,23 @@ img {
     padding-bottom: 10px;
 } */
 
-#logo {
+.logo {
     width: 40px;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: auto;  
 }  
-#logo-rects {
+.logo-rects {
     fill: url(#myGradient);
 }
 
-#logo-text {
+.logo-text {
     fill: var(--title-color);
 }
 
-.nav__logo:hover #logo-rects {
+.nav__logo:hover .logo-rects {
     fill: url(#myGradient-hover);
 }
 
-.nav__logo:hover #logo-text {
+.nav__logo:hover .logo-text {
     fill: var(--first-color);
 }
 
@@ -1035,11 +1033,9 @@ img {
         height: 80vh;
     }
 
-    #logo {
+    .logo {
         width: 30px;
         height: auto;
-        padding-top: 5px;
-        padding-bottom: 5px;
     } 
 }
 
@@ -1072,11 +1068,9 @@ img {
         justify-content: center;
     }
 
-    #logo {
+    .logo {
         width: 30px;
         height: auto;
-        padding-top: 5px;
-        padding-bottom: 5px;
     } 
 }
 
@@ -1232,11 +1226,9 @@ img {
         margin-top: 4.5rem;
     }
     
-    #logo {
+    .logo {
         width: 40px;
-        height: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        height: auto; 
     } 
 }
 
@@ -1289,10 +1281,8 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    #logo {
+    .logo {
         width: 40px;
         height: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
     } 
 }
