@@ -7,7 +7,7 @@
 
     /*============ Colors ============*/
     /* Change favorite color */
-    --hue-color: 219; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 219; /*Purple 250 - Green 142 - Blue 230 - Pink 340 - default 219*/ 
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -198,25 +198,34 @@ img {
     color: var(--first-color);
 } */
 
-.nav__logo {
+/* .nav__logo {
     width: 40px;
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+} */
+
+#logo {
+    width: 40px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+#logo-rects {
+    fill: url(#myGradient);
 }
 
-.nav__logo img.hover {
-    display: none;
-  }
-.nav__logo img.default {
-    display: inherit;
-  }
-.nav__logo:hover img.hover {
-    display: inherit;
-  }
-.nav__logo:hover img.default {
-    display: none;
-  }
+#logo-text {
+    fill: var(--title-color);
+}
+
+.nav__logo:hover #logo-rects {
+    fill: url(#myGradient-hover);
+}
+
+.nav__logo:hover #logo-text {
+    fill: var(--first-color);
+}
 
 .nav__toggle {
     font-size: 1.1rem;
@@ -1026,12 +1035,12 @@ img {
         height: 80vh;
     }
 
-    .nav__logo {
+    #logo {
         width: 30px;
         height: auto;
         padding-top: 5px;
         padding-bottom: 5px;
-    }
+    } 
 }
 
 /* For medium devices */
@@ -1063,12 +1072,12 @@ img {
         justify-content: center;
     }
 
-    .nav__logo {
+    #logo {
         width: 30px;
         height: auto;
         padding-top: 5px;
         padding-bottom: 5px;
-    }
+    } 
 }
 
 @media screen and (min-width: 768px) {
@@ -1222,13 +1231,13 @@ img {
     .footer__copy {
         margin-top: 4.5rem;
     }
-
-    .nav__logo {
+    
+    #logo {
         width: 40px;
         height: auto;
         padding-top: 10px;
         padding-bottom: 10px;
-    }
+    } 
 }
 
 /* For large devices */
@@ -1280,10 +1289,10 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .nav__logo {
+    #logo {
         width: 40px;
         height: auto;
         padding-top: 10px;
         padding-bottom: 10px;
-    }
+    } 
 }
