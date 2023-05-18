@@ -433,6 +433,7 @@ img {
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
+    background-image: linear-gradient(.25turn,var(--first-color), #fff, var(--first-color));
 }
 
 .about__description {
