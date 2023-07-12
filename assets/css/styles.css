@@ -543,6 +543,21 @@ img {
 .skills__react {
     width: 90%;
 }
+.skills__next {
+    width: 40%;
+}
+.skills__node {
+    width: 60%;
+}
+.skills__express {
+    width: 50%;
+}
+.skills__mongodb {
+    width: 80%;
+}
+.skills__api {
+    width: 30%;
+}
 .skills__c {
     width: 90%;
 }
