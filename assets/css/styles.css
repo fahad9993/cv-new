@@ -1212,6 +1212,8 @@ img {
 
     .services__modal-content {
         width: 450px;
+        max-height: calc(100vh - 50px);
+        overflow-y: auto;
     }
 
     .portfolio__img {
