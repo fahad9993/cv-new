@@ -573,6 +573,9 @@ img {
 .skills__sw {
     width: 50%;
 }
+.skills__illustrator {
+    width: 70%;
+}
 
 .skills__close .skills__list {
     height: 0;
